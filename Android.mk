@@ -19,7 +19,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src) \
-                   $(call all-java-files-under, ../EvoX/src)
+                   $(call all-java-files-under, ../CTOSP/src)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
@@ -46,7 +46,7 @@ LOCAL_JAVA_LIBRARIES := \
     telephony-common \
     ims-common \
     telephony-ext \
-    org.pixelexperience.keydisabler
+    org.ctosp.keydisabler
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-arch-lifecycle-runtime \
