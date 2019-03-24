@@ -26,7 +26,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
-    packages/apps/EvoX/res
+    packages/apps/CTOSP/res
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-slices-builders \
