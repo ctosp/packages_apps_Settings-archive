@@ -16,7 +16,7 @@
 package com.android.settings.custom.buttons;
 
 import android.content.Context;
-import org.pixelexperience.keydisabler.KeyDisabler;
+import org.ctosp.keydisabler.KeyDisabler;
 
 public class ButtonSettingsUtils {
     public static boolean isAvailable(Context context) {
