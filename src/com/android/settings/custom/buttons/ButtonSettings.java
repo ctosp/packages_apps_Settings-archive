@@ -44,7 +44,7 @@ import com.android.settings.custom.buttons.preference.*;
 
 import static com.android.internal.util.custom.hwkeys.DeviceKeysConstants.*;
 
-import org.pixelexperience.keydisabler.KeyDisabler;
+import org.ctosp.keydisabler.KeyDisabler;
 
 import com.android.internal.util.custom.NavbarUtils;
 
