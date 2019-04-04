@@ -38,9 +38,9 @@ public class BuildNumberDialogController {
         mDialog = dialog;
     }
 
-    private String getPixelExperienceVersion(){
-        String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
-        String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
+    private String getCtospVersion(){
+        String buildDate = SystemProperties.get("org.ctosp.build_date","");
+        String buildType = SystemProperties.get("org.ctosp.build_type","unofficial").toUpperCase();
         return buildDate.equals("") ? "" : "CTOSP-" + buildDate + "-" + buildType;
     }
 
