@@ -52,10 +52,10 @@ public class BuildNumberDialogController {
         StringBuilder sb = new StringBuilder();
         sb.append(BidiFormatter.getInstance().unicodeWrap(
                 TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-        String pixelExperienceVersion = getPixelExperienceVersion();
-        if (!pixelExperienceVersion.equals("")){
+        String ctospVersion = getCtospVersion();
+        if (!ctosp.equals("")){
             sb.append("\n");
-            sb.append(pixelExperienceVersion);
+            sb.append(ctospVersion);
         }
         sb.append("\n");
         sb.append(DeviceModelPreferenceController.getDeviceModel());
