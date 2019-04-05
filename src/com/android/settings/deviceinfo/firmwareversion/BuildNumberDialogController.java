@@ -47,18 +47,17 @@ public class BuildNumberDialogController {
     /**
      * Updates the build number to the dialog.
      */
-    public void initialize() {
+public void initialize() {
         
         StringBuilder sb = new StringBuilder();
         sb.append(BidiFormatter.getInstance().unicodeWrap(
                 TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-        String ctospVersion = getCtospVersion();
-        if (!ctosp.equals("")){
+        String pixelExperienceVersion = getPixelExperienceVersion();
+        if (!pixelExperienceVersion.equals("")){
             sb.append("\n");
-            sb.append(ctospVersion);
+            sb.append(pixelExperienceVersion);
         }
-        sb.append("\n");
-        sb.append(DeviceModelPreferenceController.getDeviceModel());
         mDialog.setText(BUILD_NUMBER_VALUE_ID, sb.toString());
     }
 }
+
