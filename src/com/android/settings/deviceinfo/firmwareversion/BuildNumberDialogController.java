@@ -60,5 +60,5 @@ public void initialize() {
         mDialog.setText(BUILD_NUMBER_VALUE_ID, sb.toString());
     }
 }
-}
+
 
