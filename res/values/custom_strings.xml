@@ -113,9 +113,9 @@
     <string name="display_cutout_mode_normal">Default</string>
     <string name="display_cutout_mode_hidden">Hidden</string>
 
-    <!-- Ctosp X settings -->
+    <!-- Ctosp settings -->
     <string name="ctosp_settings_title">CTOSP</string>
-    <string name="ctosp_settings_summary">Its Time To Evolve</string>
+    <string name="ctosp_settings_summary">OS custom-made</string>
 
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
