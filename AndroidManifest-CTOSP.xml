@@ -27,7 +27,7 @@
                   android:label="@string/ctosp_settings_title"
                   android:icon="@drawable/ic_homepage_ctosp"
                   android:taskAffinity="com.android.settings">
-            <intent-filter android:priority="-1">
+            <intent-filter android:priority="2">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
